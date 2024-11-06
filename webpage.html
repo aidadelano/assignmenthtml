@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Aida's Webpage</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <main>
+    <div class="header">
+      <h1>This is my Webpage</h1>
+      <h2>by Aida Delano</h2>
+    </div>
+    <div class="center-content">
+      <aside>
+        <nav>
+          <a href="">Link 1</a>
+          <a href="">Link 2</a>
+          <a href="">Link 3</a>
+        </nav>
+      </aside>
+      <div id="main-article">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel euismod ligula. Integer lacinia, sem
+          sed porta vestibulum, sapien mauris gravida justo, consectetur facilisis justo est sed enim. Nunc ornare elit
+          vitae faucibus cursus. Curabitur luctus viverra aliquam. Quisque nec ultricies tortor. Mauris dictum blandit
+          ornare. Curabitur scelerisque nunc nec purus elementum, eget vestibulum tellus volutpat. Suspendisse erat
+          arcu, finibus et scelerisque non, auctor sed elit. Aliquam laoreet dolor non laoreet pulvinar. Nullam in
+          cursus dolor. Vivamus consequat ex ac nisl fringilla pharetra.
+
+        </p>
+        <p>
+          Mauris a nisl eu ligula consectetur pulvinar. Nullam sit amet velit volutpat, placerat nisi in, imperdiet
+          odio. Suspendisse potenti. Aliquam eget tellus dignissim, euismod justo in, vestibulum arcu. In quam ipsum,
+          scelerisque eu enim sit amet, porttitor fringilla dui. Curabitur vitae scelerisque nunc, quis facilisis
+          lectus. Nam ante odio, venenatis sed orci at, lacinia eleifend dui. Mauris pellentesque sodales diam ac
+          commodo.
+
+        </p>
+        <div class="images-box">
+          <div class="image-container">
+            <img  alt="A very atmospheric image of a glowing, slightly sinister jack-o-lantern." src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGx-DNLHpzv2MfVi1ofHdAW_ca1t97BEcvEA&s" />
+          </div>
+          <div class="image-container">
+            <img alt = "An illuminated scraggly house in the middle of orange woods, surrounded by dead trees." src="https://s3.amazonaws.com/tns-assets/Media/Resources/Content/Homepage_v2/campus-community/3-TNS_Website-050114_Student_Life_437_RT.jpeg?n=1?&q=80" />
+          </div>
+          <div class="image-container">
+            <img alt="A view from a mountain meadow with shrubs and pink flowers." src="https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.jpg?s=612x612&w=0&k=20&c=N-pGA8OClRVDzRfj_9AqANnOaDS3devZWwrQNwZuDSk=" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <a href="">Link 1</a>
+    <a href="">Link 2</a>
+    <a href="">Link 3</a>
+  </footer>
+</body>
+
+
+
+<style>
+.images-box{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#main-article {
+  background-color: lightgrey;
+}
+
+main {
+  background-color: lightblue;
+  margin: 40px 160px;
+  padding: 25px;
+}
+
+.image-container{
+  margin: auto;
+  width: 100%;
+  max-width: 200px;
+  border: none;
+}
+
+.image-container img{
+  width: 100%;
+  max-width: 200px;
+}
+
+/* DEFINING A CUSTOM FONT FAMILY */
+@font-face {
+  font-family: 'Asadera';
+  src: url('fonts/Asadera.otf') format('opentype');
+}
+
+h1 {
+  font-size: 52px;
+  text-transform: lowercase;
+  text-align: center;
+  /* Google Font */
+  font-family: "Amaranth", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+h2 {
+  font-family: "Amaranth", system-ui;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+</style>
+</html>
